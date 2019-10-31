@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/><!-- 8 bit -->
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>WebDevelopment | Crea la tua pagina web con me</title>
+  <meta name="description" content="Acquista qui i tuoi nuovi articoli economici per la tua casa domotica"/>
+
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+
+  <!-- FontAwsome -->
+ <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+
+  <!-- Fonts from googlefonts -->
+  <link href="https://fonts.googleapis.com/css?family=Courgette|Mr+Dafoe|Permanent+Marker" rel="stylesheet">
+</head>
+<body>
+  <!-- Fixed Navbar -->
+  <div class="navbar-fixed">
+        <label for="showMenu" class="showMenu">
+            <i class="fa fa-align-justify fa-lg"></i>
+            Casa Domotica
+        </label>
+        <input type="checkbox" id="showMenu" role="button">
+        <ul id="menu"> 
+            <li><a href="#">Home</a></li>
+            <li><a href="">Amazon Echo</a>
+              <ul class="hidden">
+                  <li><a href="/html/amazon/luci.html">Luci</a></li>
+                  <li><a href="/html/amazon/prese.html">Prese</a></li>
+                  <li><a href="/html/amazon/speaker.html">Speaker</a></li>
+              </ul>
+            </li>
+            <li><a href="">Google Assistant</a>
+              <ul class="hidden"> 
+                  <li><a href="/html/google/luci.html">Luci</a></li>
+                  <li><a href="/html/google/prese.html">Prese</a></li>
+                  <li><a href="/html/google/speaker.html">Speaker</a></li>
+              </ul>
+            </li>
+        </ul>
+    </div>
+
+  <!-- Amazon -->
+  <div id="index-banner" class="parallax-container">
+    <div class="section-intro no-pad-bot">
+      <div class="container">
+        <br><br>
+        <h1 class="header center grey-text">Amazon Echo</h1>
+        <div class="row center">
+          <h5 class="header-sub col s12 light">Acquista qui i tuoi nuovi dispositivi compatibili con Amazon Echo!</h5>
+        </div>
+        <div class="row center">
+          <a href="html/amazon/amazon.html" class="btn-large waves-effect waves-light grey">Amazon Echo</a>
+        </div>
+        <br><br>
+
+      </div>
+    </div>
+    <div class="parallax"><img src="images/amazonecho.jpg" alt="Unsplashed background img 1"></div>
+  </div>
+
+  <!-- Servizio -->
+  <div id="servizio" class="container">
+    <div class="section">
+      <div class="col-servizio">
+
+        <!--   Icon Section   -->
+        <div class="row">
+          <div class="">
+            <div class="icon-block">
+              <h2 class="center brown-text">
+                <i class="material-icons">flash_on</i>
+              </h2>
+              <h5 class="center">***</h5>
+              <p class="light">///</p>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+
+  <!-- Google -->
+  <div id="index-banner" class="parallax-container">
+    <div class="section-intro no-pad-bot">
+      <div class="container">
+        <br><br>
+        <h1 class="header center grey-text">Google Assistant</h1>
+        <div class="row center">
+          <h5 class="header-sub col s12 light">Acquista qui i tuoi nuovi dispositivi compatibili con Google Assistant!</h5>
+        </div>
+        <div class="row center">
+          <a href="html/google/google.html" class="btn-large waves-effect waves-light grey">Google Assistant</a>
+        </div>
+        <br><br>
+
+      </div>
+    </div>
+    <div class="parallax"><img src="images/googlehome.jpg" alt="Unsplashed background img 1"></div>
+  </div>
+
+  <!-- Servizio DA AGGIUNGERE -->
+  <div id="Ospita" class="container">
+    <div class="section">
+      <div class="row">
+        <div class="col s12 center">
+          <h3><i class="mdi-content-send brown-text"></i></h3>
+          <h3>/servizio/</h3>
+          <p class="center light">/descrizione servizio/</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="page-footer teal">
+    <div class="container">
+      <div class="row">
+        <div id="Contatti" class="contatti col l12 s12 center">
+          <h5 class="white-text">Contatti</h5>
+          <a href="mailto:eliaromano2000@gmail.com" class="social-icon">
+            <i class="fa fa-envelope" aria-hidden="true"></i>
+          </a>
+          <a href="https://www.facebook.com/WebDevelopment-525024771309932/?modal=admin_todo_tour" target="_blank" class="social-icon">
+            <i class="fa fa-facebook-official" aria-hidden="true"></i>
+          </a>
+          <a href="" target="_blank" class="social-icon"><!-- Link to Twitter -->
+            <i class="fa fa-twitter" aria-hidden="true"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+      Made by <a class="brown-text text-lighten-3" href="http://materializecss.com">WebDevelopment &copy</a>
+      </div>
+    </div>
+  </footer>
+
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+  <script> 
+    (function() {
+      var qs,js,q,s,d=document, 
+        gi=d.getElementById, 
+        ce=d.createElement, 
+        gt=d.getElementsByTagName, 
+        id="typef_orm_share", 
+        b="https://embed.typeform.com/";
+      if(!gi.call(d,id)){
+        js=ce.call(d,"script");
+        js.id=id;
+        js.src=b+"embed.js"; 
+        q=gt.call(d,"script")[0]; 
+        q.parentNode.insertBefore(js,q) 
+      } 
+    })() 
+  </script>
+</body>
+</html>
