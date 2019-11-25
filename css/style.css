@@ -191,6 +191,10 @@ footer .page-footer {
     border-right: 1px solid #222;
     box-shadow: 1px 0 #444;
   }
+
+  h3 a{
+    text-decoration: none;
+  }
   
   /* rimuoviamo il bordo e l'ombreggiatura dall'ultimo link del menu */
   
@@ -279,8 +283,14 @@ footer .page-footer {
     
   li a {
     font: bold 0.9em 'Cougrette', cursive;
-    font-sixe: 1.2em;
+    font-size: 1.2em;
   } 
+
+  #box{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+  }
     
   /* resettiamo la posizione degli elementi del menu */  
     
